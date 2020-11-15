@@ -6,12 +6,11 @@ function App() {
   return (
     <div className="App">
       <h1>Netflix Clone</h1>
-      <Row title="Netflix Originals" fetchUrl={requests.fetchNetflixOriginals}>
-        TItle
-      </Row>
-      <Row title="Trending Now" fetchUrl={requests.fetchTrending}>
-        TItle
-      </Row>
+      <Row
+        title="Netflix Originals"
+        fetchUrl={requests.fetchNetflixOriginals}
+      ></Row>
+      <Row title="Trending Now" fetchUrl={requests.fetchTopRated}></Row>
     </div>
   );
 }
