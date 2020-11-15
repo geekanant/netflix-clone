@@ -1,3 +1,7 @@
 * {
   margin: 0; /* Browser gives us imaginary margin, so we remove that as well */
 }
+
+.app {
+  background-color: #111;
+}
