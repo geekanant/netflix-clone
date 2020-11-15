@@ -1,16 +1,16 @@
 .row_posters {
   display: flex;
   overflow-y: hidden;
-  overflow-x: scroll;
+  overflow-x: scroll; /* To enable component row scrolling only */
   padding: 20px;
 }
 
 .row_posters::-webkit-scrollbar {
-  display: none;
+  display: none; /* To hide the scroll bar which comes on rows */
 }
 
 .row_poster {
-  object-fit: contain;
+  object-fit: contain; /* To maintain aspect ratio */
   width: 100%;
   max-height: 100px;
   margin-right: 10px;
@@ -18,5 +18,5 @@
 }
 
 .row_poster:hover {
-  transform: scale(1.08);
+  transform: scale(1.08); /* For zoom on hover effect */
 }
