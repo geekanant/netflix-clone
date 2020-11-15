@@ -5,6 +5,10 @@
   padding: 20px;
 }
 
+.row {
+  margin-left: 20px;
+}
+
 .row_posters::-webkit-scrollbar {
   display: none; /* To hide the scroll bar which comes on rows */
 }
