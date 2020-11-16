@@ -15,6 +15,7 @@
 }
 
 .row_poster {
+  cursor: pointer;
   object-fit: contain; /* To maintain aspect ratio */
   width: 100%;
   max-height: 100px;
